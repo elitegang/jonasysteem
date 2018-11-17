@@ -92,7 +92,6 @@ client.on('guildMemberAdd', member=> {
 	
 	
 	
-	code ينشر احد أي تلقائي ميوت
 	
 	client.on('message', function(message) {
     if (!message.member.hasPermissions(['ADMINISTRATOR'])){
@@ -117,7 +116,6 @@ client.on('guildMemberAdd', member=> {
 })
 
 
-code broadcast 
 
 client.on('message', message => {
     var prefix = "$";
@@ -147,7 +145,6 @@ client.on('message', message => {
         }
     });
 	
-	code new help 
 	
 	client.on('message', message => {
               var prefix = "$" ;
